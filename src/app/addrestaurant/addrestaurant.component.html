@@ -1,0 +1,14 @@
+<div>
+  <h2>Add Restaurant</h2>
+  <div>
+    <label for="name">Restaurant Name:</label>
+    <input type="text" class="form-control" [(ngModel)]="restaurant.name" placeholder="Enter Restaurant Name" />
+  </div>
+  
+  <app-address [(address)]="restaurant.address"></app-address>
+  <app-rating [(rating)]="restaurant.rating.rating" [(comments)]="restaurant.rating.comments"></app-rating>
+  
+  <div>
+    <button (click)="addRestaurant()">Add Restaurant</button>
+  </div>
+</div>

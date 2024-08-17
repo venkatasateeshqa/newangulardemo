@@ -1,0 +1,10 @@
+<div>
+    <label for="rating">Rating (1-5):</label>
+    <input type="number" class="form-control" id="rating" [(ngModel)]="rating" min="1" max="5" placeholder="Enter Rating" (ngModelChange)="onRatingChange()" />
+</div>
+  
+  <div>
+    <label for="comments">Comments:</label>
+    <textarea id="comments" class="form-control" [(ngModel)]="comments" placeholder="Enter your comments" (ngModelChange)="onCommentsChange()"></textarea>
+  </div>
+  
