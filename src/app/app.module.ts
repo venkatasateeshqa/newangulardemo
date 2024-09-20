@@ -12,6 +12,8 @@ import { UserComponent } from './user/user.component';
 import { AddrestaurantComponent } from './addrestaurant/addrestaurant.component';
 import { RatingComponent } from './rating/rating.component';
 import { InputChangeDirective } from './input-change.directive';
+import { CreateaccountComponent } from './createaccount/createaccount.component';
+import { LoansearchComponent } from './loansearch/loansearch.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { InputChangeDirective } from './input-change.directive';
     UserComponent,
     AddrestaurantComponent,
     RatingComponent,
-    InputChangeDirective
+    InputChangeDirective,
+    CreateaccountComponent,
+    LoansearchComponent
   ],
   imports: [
     BrowserModule,

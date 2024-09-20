@@ -1,10 +1,7 @@
 import { Directive, EventEmitter, Input, Output } from '@angular/core';
 
 @Directive({
-  selector: '[appInputChange]',
-  host: {
-    '(ngModelChange)': 'onChange($event)'
-  }
+  selector: '[appInputChange]'
 })
 export class InputChangeDirective {
   @Input() appInputChange: any;
